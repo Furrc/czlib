@@ -9,7 +9,7 @@ package czlib
 // czlib_test.go, but you cannot use cgo in test files, so they are
 // defined here despite not being exposed.
 
-// #cgo pkg-config: zlib
+// #cgo LDFLAGS: -lz
 
 /*
 
