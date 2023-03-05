@@ -9,7 +9,7 @@ package czlib
 
 /*
 #cgo CFLAGS: -Werror=implicit
-#cgo pkg-config: zlib
+#cgo LDFLAGS: -lz
 
 #include "zlib.h"
 
