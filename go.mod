@@ -1,3 +1,3 @@
-module github.com/DataDog/czlib
+module github.com/Furrc/czlib
 
 go 1.14
